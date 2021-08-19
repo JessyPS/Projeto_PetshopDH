@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', 'sans-serif';
+    color: #757575;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+header {
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+    background-color: #FFBE51;
+} 
+
+.container {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+header .menu ul li {
+    display: inline;
+    list-style: none;
+    font-size: 20px;
+    padding: 0 20px;  
+}
+
+header .menu a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* SECTION */
+
+section {
+    min-height: 80vh;
+}
+
+section .inicio h2 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+section .inicio .texto {
+    width: 500px;
+    max-width: 100%;
+}
+
+section .inicio {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0;
+}
+
+/* SERVIÇOS INDEX*/
+
+section .servicos {
+    background-color: #E5E5E5;
+    padding: 70px 40px;
+}
+
+section .opcoes {
+    display: flex;
+    justify-content: space-around;   
+}
+
+section .servicos .caixa {
+    background-color: #FFFFFF;
+    width: 236px;
+    height: 234px;
+    max-width: 100%;
+}
+
+section .servicos .titulo {
+    font-size: 40px;
+    color: #000000; 
+    text-align: center;
+}
+
+section .servicos .opcoes .banho {
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000
+}
+
+section .servicos .opcoes .preco {
+    font-size: 20px;
+    color: #000000
+}
+
+section .final {
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+}
+
+section .final .textofinal {
+    width: 400px;
+    max-width: 100%;
+}
+
+/*SERVIÇOS pág.2*/
+
+section .container .servicos2 {
+    padding: 100px 0;
+}
+
+section .titulo2 {
+    font-size: 40px;
+    font-weight: bold, 700;
+    color: #FFBE51;
+    text-align: center;
+}
+
+section .servicos2 .caixa {
+    background-color: #B1B1B1;
+    width: 236px;
+    height: 234px;
+    max-width: 100%;
+    margin-top: 30px;
+}
+
+section .servicos2 .opcoes2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+}
+
+section .servicos2 .banho h3 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000
+}
+
+section .servicos2 .infobanho {
+    font-size: 18px;
+    color: #757575;
+    width: 500px;
+}
+
+section .servicos2 button {
+    background-color:#FFC107;
+    color:#FFFFFF;
+    font-size: 18px;
+    border: none;
+    padding: 4px 50px;
+}
+
+/* ÚLTIMA PÁG.*/
+
+section .infofinal {
+    display:flex;
+    justify-content: space-around;
+    width: 100%;
+} 
+
+section .infofinal .contatofinal {
+    margin: 50px;
+}
+
+section .infofinal .contatofinal h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #FFC107;
+    margin-bottom: 20px;
+}
+
+section .contatofinal form {
+    width: 500px;
+    max-width: 100%;
+}
+
+section .contatofinal form input, 
+section .contatofinal form textarea {
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0; 
+}
+
+section .contatofinal form textarea {
+    height: 160px;
+    resize: none;
+}
+
+section .contatofinal form button {
+    background-color: #FFC107;
+    color: #FFFFFF;
+    font-size: 18px;
+    border: none;
+    padding: 5px 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+section .infoend {
+    margin: 100px;
+    max-width: 100%;
+} 
+
+section .infoend p {
+    font-size: 18px;
+    color: #000000;
+    max-width: 100%;
+}
+
+section .infoend a {
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none;
+}
+
+section .infoend iframe {
+    width: 532px;
+    max-width: 100%;
+    height: 202px;
+    border: none;
+}
+
+/* CONTATO BASE DA PÁGINA*/
+
+ section .contato {
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFBE51;
+    height: 343px;
+    max-width: 100%;
+}
+
+.contato .info {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    max-width: 100%;
+}
+
+.contato .info a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.contato .mapa iframe {
+    width: 446px;
+    max-width: 100%;
+    height: 257px;
+    border: none;
+    max-width: 100%;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: #C4C4C4;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    font-size: 18px;
+    color:#000000;
+}
+
+/*pesquisar e estudar responsividade*/
+
+/* @media (max-width: 979px){
+    section .container .infoend {
+        width: 350px;
+    }
+} 
+
+@media (max-width: 794px){
+    section .container .infoend {
+        width: 100%;
+    }
+}  */
